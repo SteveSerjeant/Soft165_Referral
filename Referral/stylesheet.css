@@ -1,0 +1,157 @@
+
+body{
+	font-size: 10pt;
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	background-color: snow;
+	*padding-left: 4pt;
+	padding-right: 4pt;
+	padding-top: 4pt;
+	padding-bottom: 4pt;
+}
+
+h1{
+	font-size: 30pt;
+	color: red;
+	text-align: center;
+}
+p.main{
+	font-size: 16pt;
+	color: black;
+}
+
+h2{
+	font-size: 15pt;
+	color: purple;
+	text-align: center;
+	
+}
+
+
+
+header{
+	background-color: peru;
+	padding: 4px;
+	text-align: center;
+	font-size: 16px;
+	color: black;
+	border: 1pt solid;
+	border-bottom: 0.5pt solid;
+	
+}
+* {
+	box-sizing: border-box;
+}
+/*create three columns/boxes that float next to each other */
+nav {
+	float: left;
+	width: 25%;
+	background: #80ff80;
+	padding: 10px;
+	height: 600px;
+	border: 1pt solid;
+	border-right: .5pt solid;
+	border-top: 0.5 pt solid;
+}
+
+/*style the list inside the menu*/
+nav ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+article{
+	font-size: 16pt;
+	float: left;
+	padding: 10px;
+	width: 55%;
+	background-color: #ffff99;
+	height: 600px;
+	border: 1pt solid;
+	border-left: .5pt solid;
+	border-right: 0.5 pt solid;
+	border-top: 0.5pt solid;
+	text-align: justify;
+}
+
+aside{
+	float: left;
+	width: 20%;
+	background-color: pink;
+	padding: 10px;
+	height: 600px;
+	border: 1pt solid;
+	border-left: 0.5pt solid;
+	border-top: 0.5 pt solid;
+	
+
+}
+div{
+	width: 250px;
+	height: 170px;
+	background-color: #ff0000;
+	border: 1px solid #000000;
+	color: black;
+	font-weight: bold;
+	margin: 12px;
+	margin-bottom: 30pt;
+	  }
+
+	  
+div#d1{
+	background-color: green;
+	text-align: center;
+	padding: 15px;
+	}
+	
+div#d2{
+	width: 97%;
+	height: 42%;
+	background-color: #ffff99;
+	border: 2px solid #80ff80;
+	padding: 10pt;
+	color: black;
+	margin: 12px;
+	margin-bottom: 10pt;
+	  }
+
+div#d3{
+	width: 97%;
+	height: 8%;
+	background-color: #ffff99;
+	border: 2px solid #80ff80;
+	padding: 10pt;
+	color: black;
+	margin: 12px;
+	margin-bottom: 10pt;
+	
+}
+	
+footer{
+	position: fixed;
+	/*left: 0*/
+	bottom: 0;
+	width: 98.6%;
+	/*margin: 5pt;*/
+	border: 1pt solid;
+	padding-left: 4pt;
+	padding-right: 4pt;
+	background-color: peru;
+	line-height: 30pt;
+	font-size: 12pt;
+	font-style: italic;
+	text-align: center;
+}
+
+	
+
+
+
+
+/*responsive layout, makes boxes stack if small screen*/
+@media (max-width: 600px){
+	nav, article, aside{
+		width: 100%;
+		height: auto;
+	}
+}

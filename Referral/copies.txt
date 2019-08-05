@@ -1,0 +1,123 @@
+	aside{
+	float: right;
+	width: 10%;
+	background-color: yellow;
+	padding: 10%;
+}
+	
+	
+	<aside>
+	<h2>Quotes</h2>
+	<p>The quotes will go here!!!!</p>
+	</aside>
+	
+<h2>Quotes</h2>
+	<p>The quotes will go here!!!!</p>
+	
+		  div1{
+	position: relative;
+	width: 400px;
+	height: 100px;
+	border: 3px solid #000;
+	color: black;
+	text-align: left;
+	
+}
+
+<div1 id="d1">'There is no "I" in team.'<br>'Michael Jordan'</div1>
+				<style type = "text/css">
+		div {
+		width: 250px;
+		height: 100px;
+		border: 5px solid #000000;
+		color: black;
+	  
+	  
+	  <!DOCTYPE html>
+<html lang = "en">
+<meta name="viewport" content="width=device-width, initial scale=1.0">
+	<head>
+		<title>Page One</title>
+}
+	</head>
+	
+	<body>
+	  <p>
+	  <a href="index.html">Link to Index Page</a> Is a link back to the index page.</p>
+	  <a href="PageTwo.html">Link to Page Two</a> Is a link back to page two.</p>
+	  
+	  <h2>This is Page One</h2>
+	  </p>
+
+	  
+	</body>
+</html>
+
+<!DOCTYPE html>
+<html lang = "en">
+<meta name="viewport" content="width=device-width, initial scale=1.0">
+	<head>
+		<title>Page Two</title>
+	</head>
+	
+	<body>
+	  <p>
+	  <a href="index.html">Link to Index Page</a> Is a link back to the index page.</p>
+	  <a href="PageOne.html">Link to Page One</a> Is a link back to page one.</p>
+	  <h2>This is Page Two</h2>
+	  </p>
+
+	  
+	</body>
+</html>
+
+			<script type="text/javascript">
+		function chooseQuote(){
+		
+		quotesList = new Array (10);
+		quotesSource = new Array (10);
+		
+		quotesList[0] = "Alone we can do so little; together we can do so much.";
+		quotesSource[0] = "Helen Keller";
+		
+		quotesList[1] = "The ratio of We’s to I’s is the best indicator of the development of a team.";
+		quotesSource[1] = "Lewis B Ergen";
+		
+		quotesList[2] = "The strength of the team is each individual member. The strength of each member is the team.";
+		quotesSource[2] = "Phil Jackson";
+		
+		quotesList[3]= "If everyone is moving forward together, then success takes care of itself.";
+		quotesSource[3] = "Henry Ford";
+		
+		quotesList[4] = "No-one can whistle a symphony. It takes a whole orchestra to play it.";
+		quotesSource[4] = "H.E. Luccock";
+		
+		quotesList[5] = "Coming together is a beginning, staying together is progress, and working together is success.";
+		quotesSource[5] = "Henry Ford";
+		
+		quotesList[6] = "Talent wins games, but teamwork and intelligence win championships.";
+		quotesSource[6] = "Michael Jordan";
+		
+		quotesList[7] = "The whole is other than the sum of the parts.";
+		quotesSource[7] = "Kurt Koffka";
+		
+		quotesList[8] = "Great things in business are never done by one person; they're done by a team of people.";
+		quotesSource[8] = "Steve Jobs";
+		
+		quotesList[9]='There is no "I" in team.';
+		quotesSource[9]="Michael Jordan";
+		
+		n = Math.floor(Math.random() * quotesList.length);
+		
+		document.write ("<p style='background-color: #ffb6c1' >\"");
+		document.write (quotesList[n] + "\"");
+		document.write ("<br><em> " + quotesSource[n] + "</em>");
+		document.write ("</p>");
+		}
+		</script>
+		
+			  <script type="text/javascript">
+	  chooseQuote();
+	  </script>
+
+
