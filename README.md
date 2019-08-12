@@ -1,3 +1,5 @@
-# Soft165_Referral
+# Soft165_Referral User Story/Requirements for Application
 
-This is where I need to put the appropriate user story/requirements for my application.
+The purpose of this guide is to offer assistance for a fellow student in how to work together within a team to produce a simple web application. This assistance will have several parts. The first part of this is a set of web pages that offer a breakdown of the application in its component parts with further notes for each section. These notes offer some hints as to areas to cover and a suggestion of the study areas giving the best skills to achieve them. Persistent throughout these notes is the very important point that only by working very closely together and exchanging thoughts and ideas will a viable product result. I have suggested that there is a case for each meber of the team to have input and awareness of all other areas to help ensure the best possible outcome.
+
+  The second area of assisance is a podcast talking about and running through the pages of the web support pages and covering again the main points contained within. Some of the points within this document will be covered especially the emphasis on teamwork which is consistent throughout. Alos covered consistently is the suggestion that several areas of the application overlap and could benefit from several team members working together on two or more parts simultaneously. This would be most relevant to the security and registration elemenst of the web pages.
