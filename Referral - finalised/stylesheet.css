@@ -1,0 +1,232 @@
+
+body{
+	font-size: 10pt;
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	background-color: snow;
+	*padding-left: 4pt;
+	padding-right: 4pt;
+	padding-top: 4pt;
+	padding-bottom: 4pt;
+}
+
+h1{
+	font-size: 30pt;
+	color: red;
+	text-align: center;
+}
+p.main{
+	font-size: 16pt;
+	color: black;
+}
+
+p#link{
+	font-size: 10pt;
+	color: black;
+	
+}
+
+h2{
+	font-size: 14pt;
+	color: purple;
+	text-align: center;
+	
+}
+
+
+
+header{
+	background-color: peru;
+	padding: 2px;
+	text-align: center;
+	font-size: 14px;
+	color: black;
+	border-top: 1pt solid;
+	border-right: 1pt solid;
+	border-bottom: 0.5pt solid;
+	border-left: 1pt solid;
+	
+}
+* {
+	box-sizing: border-box;
+}
+/*create three columns/boxes that float next to each other */
+nav {
+	float: left;
+	width: 25%;
+	background: #80ff80;
+	padding: 10px;
+	height: 609px;
+	border-top: 0.5pt solid;
+	border-right: 0.5pt solid;
+	border-bottom: 0.5pt solid;
+	border-left: 1pt solid;
+
+}
+
+/*style the list inside the menu*/
+nav ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+article{
+	font-size: 12pt;
+	float: left;
+	padding: 10px;
+	width: 55%;
+	background-color: #ffff99;
+	height: 609px;
+	border: 0.5pt solid;
+	text-align: justify;
+}
+
+aside{
+	float: left;
+	width: 20%;
+	background-color: pink;
+	padding: 10px;
+	height: 609px;
+	border-top: 0.5pt solid;
+	border-right: 1pt solid;
+	border-bottom: 0.5pt solid;
+	border-left: 0.5pt solid;
+
+}
+
+
+p#p1{
+	text-align: justify;
+}
+	  
+div#d1{
+	background-color: green;
+	text-align: center;
+	padding: 15px;
+	}
+	
+div#d2{
+	width: 97%;
+	height: 48%;
+	background-color: #ffff99;
+	border: 2px solid #80ff80;
+	padding: 10pt;
+	color: black;
+	margin: 12px;
+	margin-bottom: 10pt;
+	  }
+
+div#d3{
+	width: 97%;
+	height: 7%;
+	background-color: #ffff99;
+	border: 2px solid #80ff80;
+	padding: 10pt;
+	color: black;
+	margin: 12px;
+	margin-bottom: 10pt;
+}
+div#d4{
+	width: 97%;
+	height: 25%;
+	background-color: #ffff99;
+	border: 2px solid #80ff80;
+	padding: 10pt;
+	color: black;
+	margin: 12px;
+	margin-bottom: 10pt;
+}
+
+
+div#security{
+	width: 97%;
+	height: 50%;
+	background-color: #ffff99;
+	border: 1px solid #80ff80;
+	padding: 10pt;
+	color: black;
+	margin: 12px;
+	margin-bottom: 10pt;
+}
+
+div#login{
+	width: 97%;
+	height: 40%;
+	background-color: #ffff99;
+	border: 2px solid #80ff80;
+	padding: 10pt;
+	color: black;
+	margin: 12px;
+	margin-bottom: 10pt;
+}
+
+div#chat{
+	width: 97%;
+	height: 50%;
+	background-color: #ffff99;
+	border: 2px solid #80ff80;
+	padding: 10pt;
+	color: black;
+	margin: 12px;
+	margin-bottom: 10pt;
+}
+
+div#game{
+	width: 97%;
+	height: 40%;
+	background-color: #ffff99;
+	border: 2px solid #80ff80;
+	padding: 10pt;
+	color: black;
+	margin: 12px;
+	margin-bottom: 10pt;
+}
+
+div#thirdparty{
+	width: 97%;
+	height: 30%;
+	background-color: #ffff99;
+	border: 2px solid #80ff80;
+	padding: 10pt;
+	color: black;
+	margin: 12px;
+	margin-bottom: 10pt;
+}
+
+div#mapid {
+	height: 300px;
+	width: 400px;
+}
+
+	
+footer{
+	position: fixed;
+	/*left: 0*/
+	bottom: 0;
+	width: 98.6%;
+	/*margin: 5pt;*/
+	border-top: 0.5pt solid;
+	border-right: 1pt solid;
+	border-bottom: 1pt solid;
+	border-left: 1pt solid;
+	padding-left: 4pt;
+	padding-right: 4pt;
+	background-color: peru;
+	line-height: 30pt;
+	font-size: 12pt;
+	font-style: italic;
+	text-align: center;
+}
+
+	
+
+
+
+
+/*responsive layout, makes boxes stack if small screen*/
+@media (max-width: 600px){
+	nav, article, aside{
+		width: 100%;
+		height: auto;
+	}
+}
